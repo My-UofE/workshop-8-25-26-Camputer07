@@ -1,10 +1,10 @@
 package shape;
 
-public class MovablePoint implements Movable {
+public class MoveablePoint implements Moveable {
 	int x, y, xSpeed, ySpeed; // package access
 	
 	// Constructor
-	public MovablePoint(int x, int y, int xSpeed, int ySpeed) {
+	public MoveablePoint(int x, int y, int xSpeed, int ySpeed) {
 		this.x = x;
 		this.y = y;
 		this.xSpeed = xSpeed;

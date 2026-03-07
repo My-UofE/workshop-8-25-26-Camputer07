@@ -1,12 +1,12 @@
 package shape;
 
-public class MovableCircle implements Shape { 
-  private MovablePoint centre;
+public class MoveableCircle implements Shape { 
+  private MoveablePoint centre;
   private int radius;
 
   // Constructor
-  public MovableCircle(int x, int y, int xSpeed, int ySpeed, int radius) {
-    this.centre = new MovablePoint(x, y, xSpeed, ySpeed);
+  public MoveableCircle(int x, int y, int xSpeed, int ySpeed, int radius) {
+    this.centre = new MoveablePoint(x, y, xSpeed, ySpeed);
     this.radius = radius;
   }
 
