@@ -1,4 +1,5 @@
 import shape.*;
+import java.util.Scanner;
 
 public class TestApp {
     public static void main(String[] args) {
@@ -34,5 +35,11 @@ public class TestApp {
 
         // Test the area() and perimeter() functions of MoveableCircle
         System.out.printf("Area:%.3f, Perimeter:%.3f%n", m3.area(), m3.perimeter());
+
+        // Keep the terminal open
+        Scanner in = new Scanner(System.in);
+        in.nextLine();
+        in.nextLine();
+        in.close();
     }
 }
