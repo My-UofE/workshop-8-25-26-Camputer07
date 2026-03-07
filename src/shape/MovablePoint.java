@@ -1,3 +1,5 @@
+package shape;
+
 public class MovablePoint implements Movable {
 	int x, y, xSpeed, ySpeed; // package access
 	

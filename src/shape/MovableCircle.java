@@ -1,3 +1,5 @@
+package shape;
+
 public class MovableCircle implements Shape { 
   private MovablePoint centre;
   private int radius;

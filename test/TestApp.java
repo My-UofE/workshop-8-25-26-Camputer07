@@ -1,3 +1,5 @@
+package shape;
+
 public class TestApp {
     public static void main(String[] args) {
         // Test the MoveablePoint class
