@@ -3,7 +3,7 @@ import shape.*;
 public class TestApp {
     public static void main(String[] args) {
         // Test the MoveablePoint class
-        Movable m1 = new MovablePoint(50, 60, 10, 15); // upcast
+        Moveable m1 = new MoveablePoint(50, 60, 10, 15); // upcast
         System.out.println(m1); //equivilant to println(m1.toString())
         m1.moveLeft();
         m1.moveDown();
@@ -12,7 +12,7 @@ public class TestApp {
         System.out.println();
 
         // Test the MoveableCircle class
-        MovableCircle m2 = new MovableCircle(1, 2, 3, 4, 20); 
+        MoveableCircle m2 = new MoveableCircle(1, 2, 3, 4, 20); 
         System.out.println(m2);
         m2.moveRight();
         m2.moveUp();
@@ -26,7 +26,7 @@ public class TestApp {
         System.out.println();
 
         // Test the upcasting of a MoveableCircle to Moveable
-        Shape m3 = new MovableCircle(0, 0, 5, 5, 20); // upcast
+        Shape m3 = new MoveableCircle(0, 0, 5, 5, 20); // upcast
         System.out.println(m3);
         m3.moveRight();
         m3.moveUp();
